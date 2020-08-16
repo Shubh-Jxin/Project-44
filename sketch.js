@@ -32,7 +32,7 @@ function setup(){
 
     game=new Game();
     game.getState();
-    game.instructions();
+    
 
     reset= createButton("reset");
     reset.position(1300,200);
@@ -43,8 +43,8 @@ function setup(){
     //board.display();
     // }
     //if(gameState===2){
-        board=new Board();
-        board.start();
+//         board=new Board();
+//         board.start();
         
       //  }
         //  /game.play();
